@@ -1,0 +1,11 @@
+@{
+    Layout="Shared/_Layout.cshtml";
+}
+
+<h1>Allergy List</h1>
+<ul>
+    @foreach(var allergy in Model)
+    {
+        <li>@allergy</li>
+    }
+</ul>

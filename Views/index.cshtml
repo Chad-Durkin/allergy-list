@@ -1,3 +1,11 @@
 @{
     Layout="Shared/_Layout.cshtml";
 }
+
+
+<h1> Enter your allergy score </h1>
+<form action="/allergy" method="post" >
+    <label for="score">Allergy Score:</label>
+    <input type="text" name="score" min="1" max="255">
+    <button type="submit" name="button">Submit</button>
+</form>
